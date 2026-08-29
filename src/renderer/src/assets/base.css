@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+:root {
+    --sidebar-width: clamp(230px, 20vw, 240px);
+    --sidebar-font: clamp(18px, 1vw, 20px);
+    --text-color: rgb(237, 237, 237);
+    --text-acent-color: rgb(240, 104, 0);
+    --second-color: rgb(179, 179, 179);
+    --bg-color: rgb(8, 8, 8);
+    --text-hover: rgb(18, 18, 18);
+    --widget-color: rgb(37, 37, 37);
+}
+
+[data-theme="white"] {
+  --text-color: rgb(20, 20, 20);
+  --text-acent-color: rgb(240, 104, 0);
+  --second-color: rgb(90, 90, 90);
+  --bg-color: rgb(250, 250, 250);
+  --text-hover: rgb(235, 235, 235);
+  --widget-color: rgb(220, 220, 220);
+}
