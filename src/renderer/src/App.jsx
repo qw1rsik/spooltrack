@@ -1,5 +1,6 @@
-import Sidebar from './components/sidebar'
-import TitleBar from './components/titlebar'
+import Sidebar from './components/SideBar'
+import TitleBar from './components/TitleBar'
+import Home from './pages/Home'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Sidebar />
       <div className="flex flex-col flex-1">
         <TitleBar />
-        {/* здесь будет основной контент справа */}
+        <Home />
       </div>
     </div>
   )

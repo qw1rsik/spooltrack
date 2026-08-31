@@ -7,10 +7,9 @@ const buttons_up = [
   { label: "Упаковка", icon: Package },
 ];
 
-function Sidebar({ activePage, setActivePage }) {
+function SideBar({ activePage, setActivePage }) {
   return (
     <div className="flex flex-col justify-between h-screen bg-[var(--bg-color)] text-[color:var(--second-color)] w-[var(--sidebar-width)] text-[length:var(--sidebar-font)] py-3">
-      
       <div className="flex flex-col gap-4">
         <div className="text-[color:var(--text-color)] text-4xl font-bold px-4 py-1">
           <span className="text-[color:var(--text-acent-color)]">Spool</span>Track
@@ -47,4 +46,4 @@ function Sidebar({ activePage, setActivePage }) {
   )
 }
 
-export default Sidebar;
+export default SideBar;

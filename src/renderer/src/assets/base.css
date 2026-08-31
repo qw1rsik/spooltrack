@@ -2,7 +2,7 @@
 
 
 :root {
-    --sidebar-width: clamp(230px, 20vw, 240px);
+    --sidebar-width: clamp(230px, 20vw, 230px);
     --sidebar-font: clamp(18px, 1vw, 20px);
     --text-color: rgb(237, 237, 237);
     --text-acent-color: rgb(240, 104, 0);
